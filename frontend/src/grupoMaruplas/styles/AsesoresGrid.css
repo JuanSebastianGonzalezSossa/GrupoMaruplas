@@ -1,0 +1,19 @@
+.container {
+    width: 360px;
+    padding: 15px;
+    margin: 15px auto;
+    background-color: rgb(218, 77, 77);
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      width: 345px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      width: 290px;
+      margin: 30px auto;
+    }
+  }

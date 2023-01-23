@@ -1,0 +1,15 @@
+.negativo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    z-index: 10000;
+    position: relative;
+  }
+
+  .positivo {
+    background-color: rgb(165, 3, 3);
+    color: black;
+  }
+
