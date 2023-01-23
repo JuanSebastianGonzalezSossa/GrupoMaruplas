@@ -8,10 +8,8 @@ ENV VITE_API_URL=/api
 
 RUN npm install
 
-RUN npm i -g serve
-
 RUN npm run build
 
 EXPOSE 5000
 
-CMD ["serve", "-s", "build"]
+CMD ["npm", "run", "serve"]

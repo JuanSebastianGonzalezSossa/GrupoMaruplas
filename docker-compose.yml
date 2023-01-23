@@ -11,7 +11,7 @@ services:
     container_name: frontend
     build: ./frontend
     expose:
-      - 3000
+      - 5000
     volumes:
       - ./frontend:/usr/src/app
   nginx:
